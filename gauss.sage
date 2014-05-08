@@ -11,4 +11,9 @@ class GaussianRational:
         return GaussianRational(self.x-right.x, self.y-right.y)
     def __crazy__(self, crazy):
         return 'I'm crazy'
-
+    def plot(self):
+        """
+        Plots the point of a Gaussian rational number in the x, i plane.
+        change somthing
+        """
+        return point((self.x, self.y))
