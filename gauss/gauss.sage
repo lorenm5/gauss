@@ -13,7 +13,7 @@ class GaussianRational:
         return 'I'm crazy'
 
     def plot(self):
-            """
-            Plots the point of a Gaussian rational number in the x, i plane.
-            """
-            return point((self.a, self.b))
+        """
+        Plots the point of a Gaussian rational number in the x, i plane.
+        """
+        return point((self.x, self.y))
