@@ -17,3 +17,5 @@ class GaussianRational:
         change somthing
         """
         return point((self.x, self.y))
+    def buggy:
+        self.x = self.y
