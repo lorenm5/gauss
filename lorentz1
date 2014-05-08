@@ -1,0 +1,5 @@
+def plot(self):
+        """
+        Plots the point of a Gaussian rational number in the x, i plane.
+        """
+        return point((self.a, self.b))
